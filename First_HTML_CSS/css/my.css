@@ -1,0 +1,529 @@
+*{ 
+    padding: 0px;
+    margin: 0px;
+}
+body, html{
+    font-family: Roboto, sans-serif, arial;
+    background: #f0f3fa;
+}
+.width-100{
+    width: 100%;
+    float: left;
+}
+
+.container{
+    width: 1500px;
+    margin: 0px auto;
+    text-overflow: clip;
+}
+
+.btn{
+    text-decoration: none;
+    padding: 15px;
+    top: 20px;
+}
+
+.btn:hover
+{
+    background-color: #2196f3;
+    color: white;
+}
+ 
+.top-header{
+    background: #2196f3;
+    padding: 5px 0px;
+    border-bottom: 1px solid #3131315e;
+    height: 40px;
+}
+
+.headquote{
+    font-size: 23px;
+    color: #fff;
+    width: 80%;
+}
+
+.header-menu{
+    position: relative;
+    box-shadow: 0px 2px 5px 0px #00000036;
+    background-color: lightgray;
+}
+.logo{
+    float: left;
+    padding-left: 5px;
+    margin-top: 40px;
+}
+
+.main-menu{
+    list-style: none;
+    float: right;
+    margin-top: 40px;
+}
+
+.main-menu a{
+    font-weight: 500;
+    color: #3a3a3a;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.main-menu li{
+    float: left;
+    padding: 15px 18px;
+}
+
+.margin-top-50{
+    margin-top: 50px;
+}
+
+.width-33{
+    width: 33%;
+    float: left;
+    height: auto;
+}
+
+.imp-link{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+    padding: 20px;
+    height: 350px;
+    margin-bottom: 30px;
+}
+
+.heading-sect{
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid gray;
+    padding-bottom: 0px;
+    margin: 0px;
+    margin-bottom: 15px;
+    border: 1px solid #cfcfcf;
+    padding-top: 15px;
+    padding-left: 15px;
+    background: #00aed9;
+    color: white;
+}
+
+.head-title{
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+.imp-link-ul{
+    padding: 0px;
+    list-style: none;
+    line-height: 25px;
+}
+
+.event-list{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+    padding: 20px;
+    height: 350px;
+    margin-bottom: 30px;
+}
+
+.upcoming-event-list{
+    padding: 0px;
+    list-style: none;
+}
+
+.upcoming-event-list li{
+    width: 100%;
+    float: left;
+    display: flex;
+    margin-bottom: 1px;
+}
+
+.event-date{
+    background-color: #00aed9;
+    width: 30px;
+    float: left;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    padding: 8px;
+    margin-right: 10px;
+}
+
+.notice-board{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+    padding: 20px;
+    height: 350px;
+    margin-bottom: 30px;
+}
+
+.notice-board-list{
+    padding: 0px;
+    list-style: none;
+    line-height: 25px;
+}
+
+.notice-board-list li{
+    width: 100%;
+    float: left;
+    margin-bottom: 15px;
+}
+
+.our-principle{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+    padding: 20px;
+    height: 350px;
+    margin-bottom: 30px;
+}
+
+.useful-info-ul{
+    list-style: none;
+}
+
+.useful-info-ul li{
+    margin-bottom: 15px;
+    border-bottom: 1px solid #d7d7d7;
+    padding-bottom: 15px;
+}
+
+.useful-info-ul a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.gov-sec-style{
+    margin-bottom: 30px;
+    border-bottom: 1px solid #d7d7d7;
+    padding-bottom: 30px;
+}
+
+.principal-name{
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    padding-left: 10px;
+    margin-top: 20px;
+    color: red;
+}
+
+.principal-designation{
+    font-size: 15px;
+    color: black;
+    padding-left: 10px;
+    margin-top: 6px;
+}
+
+.principal-img{
+    width: 100%;
+}
+
+.width-40{
+    width: 40%;
+    float: left;
+}
+
+.width-60{
+    width: 60%;
+    float: left;
+}
+
+.about-us{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+    padding: 20px;
+    height: 350px;
+    margin-bottom: 30px;
+}
+
+.certificate{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+    padding: 20px;
+    height: 350px;
+    margin-bottom: 30px;
+}
+
+.certificate-img{
+    width: 300px;
+    height: 250px;    
+}
+
+.gallery-head-style{
+    font-size: 28px;
+    color: #4b4848;
+    margin-bottom: 5px;
+    background: white;
+    padding: 2px 0px;
+}
+
+.width-25{
+    width: 25%;
+    float: left;
+}
+
+.gallery-img{
+    height: 250px;
+    width: auto;
+}
+
+.recuiter-head-style{
+    font-size: 28px;
+    color: #4b4848;
+    margin-bottom: 5px;
+}
+
+.recuiter-marquee{
+    height: 100px;
+}
+
+.recuiter-marquee img{
+    height: 80px;
+    width: 140px;
+}
+
+.footer{
+    background-color: #232f3e;
+    padding: 50px 0px;
+}
+
+.quicklink-heading{
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.quicklink-menu{
+    list-style: none;
+    padding-left: 10px;
+}
+
+.quicklink-menu li a{
+    color: #fff;
+    line-height: 2.5;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.get-in-touch{
+    list-style: none;
+    padding-left: 10px;
+}
+
+.get-in-touch li i{
+    color: #ed372c;
+    font-size: 20px;
+}
+
+.get-in-touch li{
+    color: #fff;
+    line-height: 2.5;
+    font-size: 15px;
+}
+
+.footer-e-mail{
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-website{
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-media{
+    list-style: none;
+    margin-top: 10px;
+}
+
+.social-media a{
+    width: 30px;
+}
+
+.footer2-bacbor{
+    background: #232f3e;
+    padding: 10px 0px;
+    border-top: 1px solid #898989;
+}
+
+.footer2-content{
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+}
+
+.left_info
+{
+    width: 500px;
+    height: 100%;
+    position: relative;
+    top: 100px;
+    left: 140px;
+    float: left;
+    overflow: auto;
+}
+.right_info
+{
+    margin-left: 500px;
+    margin-top: 100px;
+    border-radius: 20px;
+}
+.div
+{
+    font-size: large;
+}
+.about_clg
+{
+    text-align: center;
+    padding: 10px;
+    background-image: linear-gradient(purple,lightpink);
+    border-radius: 30px;
+}
+.about_clg_para
+{
+    text-align: justify;
+    font-size: 20px;
+    background-color: white;
+}
+::-webkit-scrollbar{
+    width: 15px;
+}
+
+::-webkit-scrollbar-track{
+    background: white;
+}
+::-webkit-scrollbar-thumb{
+    background: black;
+}
+.pic
+{
+    padding-left: 700px;
+    width: 200px;
+    height: 150px;
+}
+.third_div
+{
+    width: 100%;
+    height: 220px;
+    position: relative;
+    top: 5px;
+    background-color: white;
+}
+
+.location_div
+{
+    position: relative;
+    width: 170px;
+    height: 170px;
+    border-radius: 300px;
+    float: left;
+    margin-left: 80px;
+    background-image: linear-gradient(black,wheat);
+}
+.loc_image
+{
+    height: 170px;
+    width: 170px;
+    border-radius: 300px;
+}
+.loc_title
+{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.campus_div
+{
+    position: relative;
+    width: 700px;
+    height: 550px;
+    float: left;
+    margin-left: 80px;
+    margin-top: 80px;
+    background-image: linear-gradient(black,wheat);
+}
+.campus_div_image
+{
+    height: 550px;
+    width: 700px;
+}
+
+.para{
+    width: 100%;
+    height: 300px;
+    padding-top: 100px;
+}
+
+.para-p{
+    text-align: center;
+    font-size: 18px;
+    padding-top: 100px;
+}
+
+.description{
+    text-align: center;
+}
+
+.button{
+    margin: 0%;
+    float: left;
+    padding: 3px;
+}
+
+.button a{
+    text-decoration: none;
+}
+
+.button1{
+    float: left;
+    padding-left: 10px;
+    margin-top: 60px;
+    margin-left: 200px;
+    width: 500px;
+    font-size: 24px;
+    height: 80px;
+    background-color: #464d55;
+    color: white;
+    border-radius: 30px;
+}
+
+.button2{
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    margin-left: 300px;
+    margin-top: 120px;
+}
+
+.button3{
+    float: left;
+    padding-left: 10px;
+    margin-top: 60px;
+    margin-left: 200px;
+    width: 500px;
+    font-size: 24px;
+    height: 80px;
+    background-color: #038c94;
+    color: white;
+    border-radius: 20px;
+}
+
+.form{
+    padding-left: 450px;
+    margin-top: 200px;
+}
+
+.form1{
+    padding: 10px;
+}
